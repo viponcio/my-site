@@ -5,7 +5,7 @@
       }
     ],
     "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
+      { "source": "/(.*)", "destination": "https://site-psi-navy.vercel.app/" }
     ]
 }
   
