@@ -1,11 +1,12 @@
 {
     "builds": [
       {
+        "src": "/(.*)",
         "use": "@vercel/node@18.17.0"
       }
     ],
     "rewrites": [
-      { "source": "/(.*)", "destination": "https://site-psi-navy.vercel.app/" }
+      { "source": "/(.*)", "destination": "/" }
     ]
 }
   
