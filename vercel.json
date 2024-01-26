@@ -1,6 +1,11 @@
-
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
+    "builds": [
+      {
+        "use": "@vercel/node@18.17.0"
+      }
+    ],
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ]
 }
+  
