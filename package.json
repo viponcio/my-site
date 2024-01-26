@@ -36,5 +36,9 @@
     "tailwindcss": "^3.4.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
+  },
+  "engines": {
+    "node": "18.17.0"
   }
+  
 }
