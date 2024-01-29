@@ -8,9 +8,11 @@ import Footer from './Footer/index.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Avatar />
-    <About/>
-    <Experience/>
-    <Footer/>
+    <div className="min-h-screen py-10 px-3 sm:px-5">
+      <Avatar />
+      <About/>
+      <Experience/>
+      <Footer/>
+    </div>
   </React.StrictMode>,
 )

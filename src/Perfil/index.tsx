@@ -1,7 +1,7 @@
 function Avatar() {
   return (
-    <div className="relative">
-      <div className="testinho absolute top-64 right-96 ring-2 ring-blue-100 ring-offset-8 ring-offset-gray-100">
+    <div className="">
+      <div className="w-64 mx-auto shadow-xl rounded-full">
         <img
           src="https://avatars.githubusercontent.com/u/23337586?v=4"
           alt="imagem de Vitória Poncio"

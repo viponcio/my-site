@@ -1,17 +1,31 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faReact, faJs, faCss3, faHtml5 } from '@fortawesome/free-brands-svg-icons'
+import 'react-tippy/dist/tippy.css';
 
 function Experience() {
+  
     return (
-    <div className="flex">
-        <h1 className="text-lg absolute left-96 top-96">Experiência com:</h1>
-        <div className="flex flex-row space-x-4 absolute left-96 bottom-[650px]">
-          <a><FontAwesomeIcon icon={faReact} size="3x"/></a>
-          <a><FontAwesomeIcon icon={faJs} size="3x"/></a>
-          <a><FontAwesomeIcon icon={faCss3} size="3x"/></a>
-          <a><FontAwesomeIcon icon={faHtml5} size="3x"/></a>
-          <img className="size-12" src="../tailwind-icon.png" ></img>
+      
+    <div className="text-gray-800">
+        <h1 className="text-lg text-center mt-4">Experiência com:</h1>
+        <div className="flex align-center gap-3 justify-center mt-4">
+          <div className="tooltip" data-tip="ReactJS">
+            <FontAwesomeIcon icon={faReact} size="3x"/>
+          </div>  
+          <div className="tooltip" data-tip="Java Script">
+            <FontAwesomeIcon icon={faJs} size="3x"/>
+          </div>
+          <div className="tooltip" data-tip="Css">  
+            <FontAwesomeIcon icon={faCss3} size="3x"/>
+          </div>  
+          <div className="tooltip" data-tip="Html">
+            <FontAwesomeIcon icon={faHtml5} size="3x"/>
+          </div>
+          <div className="tooltip" data-tip="Tailwind">
+            <img className="size-12" src="../tailwind-icon.png" ></img>
+          </div>            
         </div>
+        
     </div>
   );    
 }
