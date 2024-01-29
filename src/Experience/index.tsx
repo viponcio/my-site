@@ -4,9 +4,9 @@ import 'react-tippy/dist/tippy.css';
 
 function Experience() {
   
-    return (
+  return (
       
-    <div className="text-gray-800">
+    <div className="text-gray-800 mb-10">
         <h1 className="text-lg text-center mt-4">Experiência com:</h1>
         <div className="flex align-center gap-3 justify-center mt-4">
           <div className="tooltip" data-tip="ReactJS">
@@ -25,7 +25,6 @@ function Experience() {
             <img className="size-12" src="../tailwind-icon.png" ></img>
           </div>            
         </div>
-        
     </div>
   );    
 }
